@@ -1,0 +1,35 @@
+{
+  "author": "SnailJS <developers@snailjs.org>",
+  "name": "ndt",
+  "description": "NodeJS daemon tools helper",
+  "version": "0.1.0",
+  "homepage": "http://snailjs.org/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snailjs/ndt.git"
+  },
+  "main": "app.js",
+  "keywords": [
+    "daemon tools",
+    "daemontools",
+    "dt",
+    "dtools",
+    "process manager",
+    "process",
+    "forever"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "debug": "2.0.x",
+    "object-manage": "0.8.x"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "chai": "1.9.x",
+    "mocha": "1.21.x"
+  }
+}
