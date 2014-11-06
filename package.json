@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/snailjs/ndt.git"
   },
-  "main": "app.js",
+  "main": "./lib/ndt",
   "keywords": [
     "daemon tools",
     "daemontools",
@@ -22,8 +22,14 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
+    "bluebird": "^2.3.10",
+    "commander": "^2.5.0",
     "debug": "2.0.x",
+    "graceful-fs": "^3.0.4",
     "object-manage": "0.8.x"
+  },
+  "bin": {
+    "ndt": "./bin/ndt"
   },
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha"
