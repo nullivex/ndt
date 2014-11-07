@@ -2,7 +2,7 @@
   "author": "SnailJS <developers@snailjs.org>",
   "name": "ndt",
   "description": "NodeJS daemon tools helper",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "http://snailjs.org/",
   "repository": {
     "type": "git",
@@ -22,15 +22,15 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "bluebird": "^2.3.10",
-    "cli-table": "^0.3.1",
-    "commander": "^2.5.0",
-    "debug": "^2.0.0",
-    "graceful-fs": "^3.0.4",
-    "linerstream": "^0.1.4",
-    "promisepipe": "^1.0.1",
-    "rmdir": "^1.0.4",
-    "through2": "^0.6.3"
+    "bluebird": "2.3.x",
+    "cli-table": "0.3.x",
+    "commander": "2.5.x",
+    "debug": "2.0.x",
+    "graceful-fs": "3.0.x",
+    "linerstream": "0.1.x",
+    "promisepipe": "1.0.x",
+    "rmdir": "1.0.x",
+    "through2": "0.6.x"
   },
   "bin": {
     "ndt": "./bin/ndt"

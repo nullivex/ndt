@@ -2,27 +2,62 @@ ndt
 ============
 
 ndt is a **Daemon Tools** wrapper for NodeJS that will create, remove, and
-upgrade the daemon tools folder structure.
+upgrade the daemon tools folder structure. Where `<action>` is from the
+list below.
 
 ## Usage
 
+### Basic app usage
 ```
 $ sudo su -
 $ npm -g install ndt
 $ cd /opt/myapp
 $ ndt install
-$ ndt start
-$ ndt status
-$ ndt restart
-$ ndt stop
+$ ndt <action>
 $ ndt remove
+```
+
+### Database Support
+
+`ndt` Also supports saving instances to a local database so commands can be
+ran from anywhere. Also allows use of macros. Where `<action>` is from the
+list below.
+
+```
+$ cd /opt/myapp
 $ ndt save
 $ cd /
-$ ndt myapp start
-$ ndt myapp restart
-$ ndt myapp stop
+$ ndt myapp <action>
 $ ndt unsave myapp
+
 ```
+
+### Macros
+
+These functions affect all members of the database. Where `<action>` is from the
+list of actions below.
+
+```
+$ ndt all <action>
+```
+
+## Actions
+
+The following actions are available when using `ndt` commands that support
+`<action>`
+
+* `alarm` - Send instance an alarm
+* `continue` - Continue a paused instance
+* `exit` - Have supervise exit after instance ends (not for production)
+* `hangup` - Tell an instance to hangup
+* `interrupt` - Send instance an interrupt
+* `kill` - Kill an instance
+* `once` - Run an instance once and dont restart if it dies
+* `pause` - Pause an instance
+* `restart` - Restart an instance
+* `start` - Start an instance
+* `status` - Get instance status
+* `stop` - Stop an instance
 
 ## dt.json
 
@@ -72,6 +107,10 @@ $ DEBUG=ndt* ndt install
 ```
 
 ## Changelog
+
+### 0.3.0
+* Major refactor of the internal code
+* Added macro actions such as `ndt all stop`
 
 ### 0.2.0
 * Completion of features and testing
