@@ -111,6 +111,8 @@ $ DEBUG=ndt* ndt install
 ### 0.3.0
 * Major refactor of the internal code
 * Added macro actions such as `ndt all stop`
+* Database is now stored globally in `/etc/ndt/ndt.json`
+* Confirmation of all commands working
 
 ### 0.2.0
 * Completion of features and testing
