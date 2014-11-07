@@ -57,7 +57,7 @@ EG:
 ```
 $ su - node
 $ cd /opt/myapp
-$ env | ndt generate --command "node app -vv"
+$ env | ndt generate --command "node app -vv" --stdin
 ```
 
 ## Debugging
