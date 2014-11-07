@@ -24,9 +24,12 @@
   "dependencies": {
     "bluebird": "^2.3.10",
     "commander": "^2.5.0",
-    "debug": "2.0.x",
+    "debug": "^2.0.0",
     "graceful-fs": "^3.0.4",
-    "object-manage": "0.8.x"
+    "linerstream": "^0.1.4",
+    "object-manage": "0.8.x",
+    "promisepipe": "^1.0.1",
+    "through2": "^0.6.3"
   },
   "bin": {
     "ndt": "./bin/ndt"

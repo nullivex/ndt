@@ -23,21 +23,34 @@ In order for an application to work with **ndt**.
 
 ```json
 {
+  "name": "myapp"
+  "cwd": "/opt/myapp",
+  "user": "node",
+  "command": "node app -vv"
   "env": {
     "NODE_ENV": "production",
     "DEBUG": "*"
   },
-  "cwd": "/opt/myapp",
-  "user": "node",
-  "command": "node app -vv"
   "log": {
-    "env": {
-      "HOME": "/home/node"
-    },
     "user": "node",
-    "command": "multilog s16777215 t /var/log/node/oose"
+    "command": "multilog s16777215 t /var/log/node/myapp"
   }
 }
+```
+
+### Generating the dt.json
+
+It is possible to generate the dt.json file in order to make the setup process
+a bit less cumbersome.
+
+In order to properly populate the environment variables. We recommend piping
+them through stdin.
+
+EG:
+```
+$ su - node
+$ cd /opt/myapp
+$ env | ndt generate --command "node app -vv"
 ```
 
 ## Debugging
