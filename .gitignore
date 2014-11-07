@@ -1,6 +1,4 @@
 node_modules
 .idea
-*.log
-log/*
-npm-debug.log
-tmp
+ndt.json
+dt.json

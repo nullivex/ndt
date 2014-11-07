@@ -1,4 +1,4 @@
-ndt [![Build Status](https://travis-ci.org/snailjs/ndt.png?branch=master)](https://travis-ci.org/snailjs/ndt)
+ndt
 ============
 
 ndt is a **Daemon Tools** wrapper for NodeJS that will create, remove, and
@@ -7,6 +7,7 @@ upgrade the daemon tools folder structure.
 ## Usage
 
 ```
+$ sudo su -
 $ npm -g install ndt
 $ cd /opt/myapp
 $ ndt install
@@ -15,6 +16,12 @@ $ ndt status
 $ ndt restart
 $ ndt stop
 $ ndt remove
+$ ndt save
+$ cd /
+$ ndt myapp start
+$ ndt myapp restart
+$ ndt myapp stop
+$ ndt unsave myapp
 ```
 
 ## dt.json
@@ -65,6 +72,12 @@ $ DEBUG=ndt* ndt install
 ```
 
 ## Changelog
+
+### 0.2.0
+* Completion of features and testing
+* Restart now waits for process exit
+* Removal now waits for process exit
+* Database support
 
 ### 0.1.0
 
