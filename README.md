@@ -102,7 +102,7 @@ This package is built using the https://www.npmjs.org/package/debug package.
 Use the following to see debug output
 
 ```
-$ cd /opt/mysqll
+$ cd /opt/myapp
 $ DEBUG=ndt* ndt install
 ```
 
