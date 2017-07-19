@@ -1,12 +1,12 @@
 {
-  "author": "SnailJS <developers@snailjs.org>",
+  "author": "NULLIVEX LLC <contact@nullivex.com>",
   "name": "ndt",
   "description": "NodeJS daemon tools helper",
-  "version": "0.3.0",
-  "homepage": "http://snailjs.org/",
+  "version": "1.0.0",
+  "homepage": "http://www.nullivex.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snailjs/ndt.git"
+    "url": "https://github.com/nullivex/ndt.git"
   },
   "main": "./lib/ndt",
   "keywords": [
@@ -22,16 +22,16 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "bluebird": "2.3.x",
+    "bluebird": "3.5.x",
     "cli-table": "0.3.x",
-    "commander": "2.5.x",
-    "debug": "2.0.x",
-    "graceful-fs": "3.0.x",
-    "linerstream": "0.1.x",
-    "promisepipe": "1.0.x",
-    "rmdir": "1.0.x",
-    "string": "2.2.x",
-    "through2": "0.6.x"
+    "commander": "2.11.x",
+    "debug": "2.6.x",
+    "graceful-fs": "4.1.x",
+    "linerstream": "0.2.x",
+    "promisepipe": "2.0.x",
+    "rmdir": "1.2.x",
+    "string": "3.3.x",
+    "through2": "2.0.x"
   },
   "bin": {
     "ndt": "./bin/ndt"
@@ -40,7 +40,7 @@
     "test": "node ./node_modules/mocha/bin/mocha"
   },
   "devDependencies": {
-    "chai": "1.9.x",
-    "mocha": "1.21.x"
+    "chai": "4.1.x",
+    "mocha": "3.4.x"
   }
 }

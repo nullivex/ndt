@@ -108,6 +108,12 @@ $ DEBUG=ndt* ndt install
 
 ## Changelog
 
+### 1.0.0
+* Update dependencies
+* Add support for latest Node.js versions
+* Drop support for Node.js < 4.x
+* Bump to 1.0.0 for a stable perpetual release marking 2 years with ndt in production.
+
 ### 0.3.0
 * Major refactor of the internal code
 * Added macro actions such as `ndt all stop`
