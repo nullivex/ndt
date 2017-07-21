@@ -108,6 +108,10 @@ $ DEBUG=ndt* ndt install
 
 ## Changelog
 
+### 1.0.1
+* Fix update with ndt status not listing status and producing errors
+* Fix issue with list command not being called with no arguments
+
 ### 1.0.0
 * Update dependencies
 * Add support for latest Node.js versions

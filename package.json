@@ -2,7 +2,7 @@
   "author": "NULLIVEX LLC <contact@nullivex.com>",
   "name": "ndt",
   "description": "NodeJS daemon tools helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://www.nullivex.com/",
   "repository": {
     "type": "git",
