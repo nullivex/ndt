@@ -108,6 +108,9 @@ $ DEBUG=ndt* ndt install
 
 ## Changelog
 
+### 1.0.2
+* Fix included daemontools template to use `setuidgid` instead of `envuidgid`
+
 ### 1.0.1
 * Fix update with ndt status not listing status and producing errors
 * Fix issue with list command not being called with no arguments
