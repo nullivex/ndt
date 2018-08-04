@@ -108,6 +108,9 @@ $ DEBUG=ndt* ndt install
 
 ## Changelog
 
+### 1.0.3
+* Fix handling of default command due to a change in commander
+
 ### 1.0.2
 * Fix included daemontools template to use `setuidgid` instead of `envuidgid`
 
