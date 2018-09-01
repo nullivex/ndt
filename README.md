@@ -108,6 +108,10 @@ $ DEBUG=ndt* ndt install
 
 ## Changelog
 
+### 1.0.4
+* Update to latest commander
+* Fix to default listing
+
 ### 1.0.3
 * Fix handling of default command due to a change in commander
 

@@ -2,7 +2,7 @@
   "author": "NULLIVEX LLC <contact@nullivex.com>",
   "name": "ndt",
   "description": "NodeJS daemon tools helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "homepage": "http://www.nullivex.com/",
   "repository": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "cli-table": "^0.3.1",
-    "commander": "^2.17.0",
+    "commander": "^2.17.1",
     "debug": "^3.1.0",
     "graceful-fs": "^4.1.11",
     "linerstream": "^0.2.0",
