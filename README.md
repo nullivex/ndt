@@ -108,6 +108,10 @@ $ DEBUG=ndt* ndt install
 
 ## Changelog
 
+### 1.0.5
+* Latest dependencies
+* Update package json
+
 ### 1.0.4
 * Update to latest commander
 * Fix to default listing
