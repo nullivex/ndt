@@ -108,6 +108,9 @@ $ DEBUG=ndt* ndt install
 
 ## Changelog
 
+### 1.0.6
+* Fix main field
+
 ### 1.0.5
 * Latest dependencies
 * Update package json

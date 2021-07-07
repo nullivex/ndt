@@ -2,13 +2,14 @@
   "author": "NULLIVEX LLC <contact@nullivex.com>",
   "name": "ndt",
   "description": "NodeJS daemon tools helper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "homepage": "http://www.nullivex.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/nullivex/ndt.git"
   },
+  "main": "./lib/ndt.js",
   "keywords": [
     "daemon tools",
     "daemontools",
